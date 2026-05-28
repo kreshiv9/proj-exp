@@ -1,0 +1,246 @@
+{
+  "company_name": "Vanta",
+  "enrichment": {
+    "company_name": "Vanta",
+    "ceo_name": "Christina Cacioppo",
+    "cofounder_names": [
+      "Christina Cacioppo"
+    ],
+    "people_source_url": "https://www.christinacacioppo.com/",
+    "hq_city": "San Francisco",
+    "hq_source_url": "https://www.linkedin.com/in/ccacioppo",
+    "last_funding_amount": "$150 million",
+    "last_funding_date": "2025-07-23",
+    "last_funding_lead_investor": "Wellington Management",
+    "funding_source_url": "https://tracxn.com/d/companies/vanta/__pPtFJxxIAwbrYHgPClxzjK33aPeDcoAj76W_aB_I3WE",
+    "ceo_previous_role": "Worked on Dropbox Paper at Dropbox",
+    "ceo_previous_role_source_url": "https://www.christinacacioppo.com/",
+    "named_customer_or_partner": "Snowflake",
+    "customer_source_url": "https://www.vanta.com/customers"
+  },
+  "llm_calls": [
+    {
+      "timestamp": "2026-05-28T08:10:39.921816+00:00",
+      "config_id": null,
+      "company": "Vanta",
+      "role": "generator",
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 1909,
+      "output_tokens": 128,
+      "cost_usd": 0.002549,
+      "latency_ms": 21829,
+      "success_bool": true
+    },
+    {
+      "timestamp": "2026-05-28T08:10:44.512831+00:00",
+      "config_id": null,
+      "company": "Vanta",
+      "role": "generator",
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 6712,
+      "output_tokens": 157,
+      "cost_usd": 0.007497,
+      "latency_ms": 2769,
+      "success_bool": true
+    },
+    {
+      "timestamp": "2026-05-28T08:10:50.449113+00:00",
+      "config_id": null,
+      "company": "Vanta",
+      "role": "generator",
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 11357,
+      "output_tokens": 185,
+      "cost_usd": 0.012282000000000001,
+      "latency_ms": 4213,
+      "success_bool": true
+    },
+    {
+      "timestamp": "2026-05-28T08:11:05.603996+00:00",
+      "config_id": null,
+      "company": "Vanta",
+      "role": "generator",
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 11644,
+      "output_tokens": 166,
+      "cost_usd": 0.012473999999999999,
+      "latency_ms": 4933,
+      "success_bool": true
+    },
+    {
+      "timestamp": "2026-05-28T08:11:18.206344+00:00",
+      "config_id": null,
+      "company": "Vanta",
+      "role": "generator",
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 13138,
+      "output_tokens": 148,
+      "cost_usd": 0.013878,
+      "latency_ms": 10210,
+      "success_bool": true
+    },
+    {
+      "timestamp": "2026-05-28T08:11:34.895410+00:00",
+      "config_id": null,
+      "company": "Vanta",
+      "role": "generator",
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 17865,
+      "output_tokens": 240,
+      "cost_usd": 0.019065,
+      "latency_ms": 16216,
+      "success_bool": true
+    },
+    {
+      "timestamp": "2026-05-28T08:11:56.026362+00:00",
+      "config_id": null,
+      "company": "Vanta",
+      "role": "generator",
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 21983,
+      "output_tokens": 123,
+      "cost_usd": 0.022598,
+      "latency_ms": 18727,
+      "success_bool": true
+    },
+    {
+      "timestamp": "2026-05-28T08:12:23.985314+00:00",
+      "config_id": null,
+      "company": "Vanta",
+      "role": "generator",
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 22991,
+      "output_tokens": 99,
+      "cost_usd": 0.023486,
+      "latency_ms": 26873,
+      "success_bool": true
+    },
+    {
+      "timestamp": "2026-05-28T08:12:55.705538+00:00",
+      "config_id": null,
+      "company": "Vanta",
+      "role": "generator",
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 25081,
+      "output_tokens": 664,
+      "cost_usd": 0.028401,
+      "latency_ms": 31497,
+      "success_bool": true
+    }
+  ],
+  "tool_calls": [
+    {
+      "tool": "fetch_url",
+      "args": {
+        "url": "https://vanta.com"
+      },
+      "result_size_chars": 8346,
+      "latency_ms": 844
+    },
+    {
+      "tool": "web_search",
+      "args": {
+        "query": "Vanta company CEO founder"
+      },
+      "result_size_chars": 3521,
+      "latency_ms": 977
+    },
+    {
+      "tool": "fetch_url",
+      "args": {
+        "url": "https://en.wikipedia.org/wiki/Vanta_(company)"
+      },
+      "result_size_chars": 8713,
+      "latency_ms": 267
+    },
+    {
+      "tool": "web_search",
+      "args": {
+        "query": "Vanta funding round 2025 Series D $150 million"
+      },
+      "result_size_chars": 3368,
+      "latency_ms": 1454
+    },
+    {
+      "tool": "fetch_url",
+      "args": {
+        "url": "https://www.businesswire.com/news/home/20250723901336/en/Vanta-Raises-%24150M-Series-D-to-Power-the-Future-of-AI-Driven-Trust",
+        "query": "Christina Cacioppo previous role before Vanta LinkedIn career"
+      },
+      "result_size_chars": 276,
+      "latency_ms": 10220
+    },
+    {
+      "tool": "web_search",
+      "args": {
+        "query": "Christina Cacioppo previous job before Vanta LinkedIn biography",
+        "max_results": 6
+      },
+      "result_size_chars": 1762,
+      "latency_ms": 1230
+    },
+    {
+      "tool": "web_search",
+      "args": {
+        "query": "Vanta customer case study customer testimonial",
+        "max_results": 6
+      },
+      "result_size_chars": 2736,
+      "latency_ms": 1161
+    },
+    {
+      "tool": "fetch_url",
+      "args": {
+        "url": "https://www.vanta.com/customers"
+      },
+      "result_size_chars": 8442,
+      "latency_ms": 167
+    },
+    {
+      "tool": "fetch_url",
+      "args": {
+        "url": "https://www.christinacacioppo.com"
+      },
+      "result_size_chars": 4915,
+      "latency_ms": 304
+    },
+    {
+      "tool": "web_search",
+      "args": {
+        "query": "Vanta cofounders Kevin Bocek founders",
+        "max_results": 6
+      },
+      "result_size_chars": 1908,
+      "latency_ms": 1224
+    },
+    {
+      "tool": "fetch_url",
+      "args": {
+        "url": "https://www.forbes.com/sites/phoebeliu/2023/06/25/how-christina-cacioppo-built-startup-vanta-into-a-1-6-billion-unicorn-to-automate-complicated-security-compliance-issues"
+      },
+      "result_size_chars": 8694,
+      "latency_ms": 1178
+    },
+    {
+      "tool": "web_search",
+      "args": {
+        "query": "\"Vanta\" cofounders \"Christina Cacioppo\" \"San Francisco\" HQ headquarters",
+        "max_results": 6
+      },
+      "result_size_chars": 2943,
+      "latency_ms": 1085
+    },
+    {
+      "tool": "fetch_url",
+      "args": {
+        "url": "https://www.crunchbase.com/organization/vanta"
+      },
+      "result_size_chars": 5887,
+      "latency_ms": 222
+    }
+  ],
+  "total_input_tokens": 132680,
+  "total_output_tokens": 1910,
+  "total_cost_usd": 0.14223000000000002,
+  "latency_sec": 157.623
+}

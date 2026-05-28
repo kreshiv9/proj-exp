@@ -1,0 +1,230 @@
+{
+  "company_name": "Linear",
+  "enrichment": {
+    "company_name": "Linear",
+    "ceo_name": "Karri Saarinen",
+    "cofounder_names": [
+      "Karri Saarinen",
+      "Tuomas Artman"
+    ],
+    "people_source_url": "https://www.crunchbase.com/person/tuomas-artman",
+    "hq_city": "San Francisco",
+    "hq_source_url": "https://www.cbinsights.com/company/linear-1",
+    "last_funding_amount": "$82M",
+    "last_funding_date": "2025-06-10",
+    "last_funding_lead_investor": null,
+    "funding_source_url": "https://tracxn.com/d/companies/linear/__xC97n-jdX7VZjDBpNyRfVH-H_Elzu354nD5Yz5FaUVI",
+    "ceo_previous_role": "Principal Designer at Airbnb",
+    "ceo_previous_role_source_url": "https://karrisaarinen.com",
+    "named_customer_or_partner": "Vercel",
+    "customer_source_url": "https://research.contrary.com/company/linear"
+  },
+  "llm_calls": [
+    {
+      "timestamp": "2026-05-28T08:08:39.015423+00:00",
+      "config_id": null,
+      "company": "Linear",
+      "role": "generator",
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 1904,
+      "output_tokens": 130,
+      "cost_usd": 0.002554,
+      "latency_ms": 31936,
+      "success_bool": true
+    },
+    {
+      "timestamp": "2026-05-28T08:08:42.375237+00:00",
+      "config_id": null,
+      "company": "Linear",
+      "role": "generator",
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 5832,
+      "output_tokens": 126,
+      "cost_usd": 0.006462000000000001,
+      "latency_ms": 1813,
+      "success_bool": true
+    },
+    {
+      "timestamp": "2026-05-28T08:08:46.643481+00:00",
+      "config_id": null,
+      "company": "Linear",
+      "role": "generator",
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 7944,
+      "output_tokens": 170,
+      "cost_usd": 0.008794,
+      "latency_ms": 2079,
+      "success_bool": true
+    },
+    {
+      "timestamp": "2026-05-28T08:08:56.273570+00:00",
+      "config_id": null,
+      "company": "Linear",
+      "role": "generator",
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 12305,
+      "output_tokens": 130,
+      "cost_usd": 0.012955,
+      "latency_ms": 7586,
+      "success_bool": true
+    },
+    {
+      "timestamp": "2026-05-28T08:09:10.711879+00:00",
+      "config_id": null,
+      "company": "Linear",
+      "role": "generator",
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 14017,
+      "output_tokens": 138,
+      "cost_usd": 0.014707,
+      "latency_ms": 12190,
+      "success_bool": true
+    },
+    {
+      "timestamp": "2026-05-28T08:09:30.068720+00:00",
+      "config_id": null,
+      "company": "Linear",
+      "role": "generator",
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 18034,
+      "output_tokens": 179,
+      "cost_usd": 0.018929,
+      "latency_ms": 17872,
+      "success_bool": true
+    },
+    {
+      "timestamp": "2026-05-28T08:09:50.130653+00:00",
+      "config_id": null,
+      "company": "Linear",
+      "role": "generator",
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 19662,
+      "output_tokens": 108,
+      "cost_usd": 0.020201999999999998,
+      "latency_ms": 17741,
+      "success_bool": true
+    },
+    {
+      "timestamp": "2026-05-28T08:10:18.068625+00:00",
+      "config_id": null,
+      "company": "Linear",
+      "role": "generator",
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 22701,
+      "output_tokens": 547,
+      "cost_usd": 0.025436,
+      "latency_ms": 24645,
+      "success_bool": true
+    }
+  ],
+  "tool_calls": [
+    {
+      "tool": "fetch_url",
+      "args": {
+        "url": "https://linear.app"
+      },
+      "result_size_chars": 8486,
+      "latency_ms": 413
+    },
+    {
+      "tool": "web_search",
+      "args": {
+        "query": "Linear CEO founder Kan Yildirim"
+      },
+      "result_size_chars": 1791,
+      "latency_ms": 1132
+    },
+    {
+      "tool": "web_search",
+      "args": {
+        "query": "Linear issue tracking company CEO founder about"
+      },
+      "result_size_chars": 3080,
+      "latency_ms": 981
+    },
+    {
+      "tool": "web_search",
+      "args": {
+        "query": "Linear app company funding round 2024 2025"
+      },
+      "result_size_chars": 3639,
+      "latency_ms": 1207
+    },
+    {
+      "tool": "fetch_url",
+      "args": {
+        "url": "https://linear.app/now/building-our-way"
+      },
+      "result_size_chars": 8503,
+      "latency_ms": 614
+    },
+    {
+      "tool": "web_search",
+      "args": {
+        "query": "Linear Karri Saarinen cofounders Arman Kian"
+      },
+      "result_size_chars": 2383,
+      "latency_ms": 1428
+    },
+    {
+      "tool": "web_search",
+      "args": {
+        "query": "\"Linear\" issue tracking app cofounders founded 2019"
+      },
+      "result_size_chars": 3759,
+      "latency_ms": 1130
+    },
+    {
+      "tool": "web_search",
+      "args": {
+        "query": "Linear app San Francisco headquarters location"
+      },
+      "result_size_chars": 2319,
+      "latency_ms": 1116
+    },
+    {
+      "tool": "fetch_url",
+      "args": {
+        "url": "https://linear.app/about"
+      },
+      "result_size_chars": 8545,
+      "latency_ms": 480
+    },
+    {
+      "tool": "web_search",
+      "args": {
+        "query": "Karri Saarinen previous role Airbnb CEO Linear"
+      },
+      "result_size_chars": 2551,
+      "latency_ms": 1004
+    },
+    {
+      "tool": "web_search",
+      "args": {
+        "query": "\"Linear\" founders \"Tuomas Artman\" OR \"Arman Kian\" OR cofounders 2019"
+      },
+      "result_size_chars": 2388,
+      "latency_ms": 1221
+    },
+    {
+      "tool": "web_search",
+      "args": {
+        "query": "Linear customers case study Vercel Ramp Loom"
+      },
+      "result_size_chars": 2500,
+      "latency_ms": 1098
+    },
+    {
+      "tool": "fetch_url",
+      "args": {
+        "url": "https://linear.app/customers"
+      },
+      "result_size_chars": 8511,
+      "latency_ms": 3291
+    }
+  ],
+  "total_input_tokens": 102399,
+  "total_output_tokens": 1528,
+  "total_cost_usd": 0.110039,
+  "latency_sec": 130.992
+}

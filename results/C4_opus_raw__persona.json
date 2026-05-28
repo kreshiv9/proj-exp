@@ -1,0 +1,222 @@
+{
+  "company_name": "Persona",
+  "enrichment": {
+    "company_name": "Persona",
+    "ceo_name": "Rick Song",
+    "cofounder_names": [
+      "Rick Song",
+      "Charles Yeh"
+    ],
+    "people_source_url": "https://en.wikipedia.org/wiki/Persona_(identity_verification_service)",
+    "hq_city": "San Francisco",
+    "hq_source_url": "https://en.wikipedia.org/wiki/Persona_(identity_verification_service)",
+    "last_funding_amount": "$200M",
+    "last_funding_date": "2025-04-30",
+    "last_funding_lead_investor": "Founders Fund and Ribbit Capital (co-led)",
+    "funding_source_url": "https://vcnewsdaily.com/persona/venture-capital-funding/vbxfnzhjvl",
+    "ceo_previous_role": "Engineer working on identity fraud and risk products at Square",
+    "ceo_previous_role_source_url": "https://en.wikipedia.org/wiki/Persona_(identity_verification_service)",
+    "named_customer_or_partner": "Discord (uses Persona for UK age verification)",
+    "customer_source_url": "https://en.wikipedia.org/wiki/Persona_(identity_verification_service)"
+  },
+  "llm_calls": [
+    {
+      "timestamp": "2026-05-28T08:28:02.007080+00:00",
+      "config_id": null,
+      "company": "Persona",
+      "role": "generator",
+      "model": "claude-opus-4-7",
+      "input_tokens": 2546,
+      "output_tokens": 160,
+      "cost_usd": 0.05019,
+      "latency_ms": 3463,
+      "success_bool": true
+    },
+    {
+      "timestamp": "2026-05-28T08:28:08.097091+00:00",
+      "config_id": null,
+      "company": "Persona",
+      "role": "generator",
+      "model": "claude-opus-4-7",
+      "input_tokens": 5220,
+      "output_tokens": 153,
+      "cost_usd": 0.089775,
+      "latency_ms": 3829,
+      "success_bool": true
+    },
+    {
+      "timestamp": "2026-05-28T08:28:13.514468+00:00",
+      "config_id": null,
+      "company": "Persona",
+      "role": "generator",
+      "model": "claude-opus-4-7",
+      "input_tokens": 14774,
+      "output_tokens": 260,
+      "cost_usd": 0.24111,
+      "latency_ms": 4826,
+      "success_bool": true
+    },
+    {
+      "timestamp": "2026-05-28T08:28:20.015008+00:00",
+      "config_id": null,
+      "company": "Persona",
+      "role": "generator",
+      "model": "claude-opus-4-7",
+      "input_tokens": 22275,
+      "output_tokens": 270,
+      "cost_usd": 0.354375,
+      "latency_ms": 5806,
+      "success_bool": true
+    },
+    {
+      "timestamp": "2026-05-28T08:28:28.017580+00:00",
+      "config_id": null,
+      "company": "Persona",
+      "role": "generator",
+      "model": "claude-opus-4-7",
+      "input_tokens": 25089,
+      "output_tokens": 293,
+      "cost_usd": 0.39831,
+      "latency_ms": 5709,
+      "success_bool": true
+    },
+    {
+      "timestamp": "2026-05-28T08:28:33.299090+00:00",
+      "config_id": null,
+      "company": "Persona",
+      "role": "generator",
+      "model": "claude-opus-4-7",
+      "input_tokens": 34193,
+      "output_tokens": 164,
+      "cost_usd": 0.525195,
+      "latency_ms": 4400,
+      "success_bool": true
+    },
+    {
+      "timestamp": "2026-05-28T08:28:44.428134+00:00",
+      "config_id": null,
+      "company": "Persona",
+      "role": "generator",
+      "model": "claude-opus-4-7",
+      "input_tokens": 38602,
+      "output_tokens": 509,
+      "cost_usd": 0.6172049999999999,
+      "latency_ms": 10653,
+      "success_bool": true
+    },
+    {
+      "timestamp": "2026-05-28T08:28:54.609165+00:00",
+      "config_id": null,
+      "company": "Persona",
+      "role": "generator",
+      "model": "claude-opus-4-7",
+      "input_tokens": 43702,
+      "output_tokens": 760,
+      "cost_usd": 0.71253,
+      "latency_ms": 9882,
+      "success_bool": true
+    }
+  ],
+  "tool_calls": [
+    {
+      "tool": "web_search",
+      "args": {
+        "query": "Persona withpersona.com CEO founders headquarters"
+      },
+      "result_size_chars": 3033,
+      "latency_ms": 1113
+    },
+    {
+      "tool": "web_search",
+      "args": {
+        "query": "Persona identity verification Series D funding round"
+      },
+      "result_size_chars": 3125,
+      "latency_ms": 1146
+    },
+    {
+      "tool": "fetch_url",
+      "args": {
+        "url": "https://withpersona.com/blog/series-d"
+      },
+      "result_size_chars": 8463,
+      "latency_ms": 403
+    },
+    {
+      "tool": "fetch_url",
+      "args": {
+        "url": "https://en.wikipedia.org/wiki/Persona_(identity_verification_service)"
+      },
+      "result_size_chars": 8734,
+      "latency_ms": 187
+    },
+    {
+      "tool": "fetch_url",
+      "args": {
+        "url": "https://www.prnewswire.com/news-releases/persona-raises-200m-at-2b-valuation-to-build-the-verified-identity-layer-for-an-agentic-ai-world-302442649.html"
+      },
+      "result_size_chars": 8760,
+      "latency_ms": 455
+    },
+    {
+      "tool": "fetch_url",
+      "args": {
+        "url": "https://en.wikipedia.org/wiki/Persona_(identity_verification_service)?action=raw"
+      },
+      "result_size_chars": 8287,
+      "latency_ms": 238
+    },
+    {
+      "tool": "web_search",
+      "args": {
+        "query": "Persona Series D $200M lead investor April 2025"
+      },
+      "result_size_chars": 3071,
+      "latency_ms": 1154
+    },
+    {
+      "tool": "web_search",
+      "args": {
+        "query": "\"Rick Song\" Persona Square previous role identity fraud"
+      },
+      "result_size_chars": 3455,
+      "latency_ms": 1138
+    },
+    {
+      "tool": "fetch_url",
+      "args": {
+        "url": "https://www.fintechfutures.com/venture-capital-funding/us-identity-platform-persona-hits-2bn-valuation-after-200m-series-d"
+      },
+      "result_size_chars": 6282,
+      "latency_ms": 192
+    },
+    {
+      "tool": "fetch_url",
+      "args": {
+        "url": "https://review.firstround.com/podcast/from-reluctant-founder-to-2b-valuation-the-story-of-persona-rick-song-co-founder-and-ceo"
+      },
+      "result_size_chars": 8805,
+      "latency_ms": 687
+    },
+    {
+      "tool": "fetch_url",
+      "args": {
+        "url": "https://siliconangle.com/2025/04/30/identity-verification-startup-persona-raises-200m-2b-valuation"
+      },
+      "result_size_chars": 8641,
+      "latency_ms": 475
+    },
+    {
+      "tool": "fetch_url",
+      "args": {
+        "url": "https://vcnewsdaily.com/persona/venture-capital-funding/vbxfnzhjvl"
+      },
+      "result_size_chars": 8801,
+      "latency_ms": 297
+    }
+  ],
+  "total_input_tokens": 186401,
+  "total_output_tokens": 2569,
+  "total_cost_usd": 2.9886899999999996,
+  "latency_sec": 56.069
+}

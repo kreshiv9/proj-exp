@@ -1,0 +1,242 @@
+{
+  "company_name": "Stripe",
+  "enrichment": {
+    "company_name": "Stripe",
+    "ceo_name": "Patrick Collison",
+    "cofounder_names": [
+      "Patrick Collison",
+      "John Collison"
+    ],
+    "people_source_url": "https://www.sohnconference.org/johncollison",
+    "hq_city": "San Francisco",
+    "hq_source_url": "https://www.linkedin.com/company/stripe",
+    "last_funding_amount": "$694 million",
+    "last_funding_date": "2024-04-08",
+    "last_funding_lead_investor": "Thrive Capital",
+    "funding_source_url": "https://www.gunder.com/en/news-insights/client-news/thrive-capital-invests-in-stripes-6-5b-series-i-financing",
+    "ceo_previous_role": "Co-founder of Auctomatic",
+    "ceo_previous_role_source_url": "https://www.instagram.com/reel/DQ99UmRkp16",
+    "named_customer_or_partner": "Shopify",
+    "customer_source_url": "https://stripe.com/customers/shopify"
+  },
+  "llm_calls": [
+    {
+      "timestamp": "2026-05-28T08:01:25.937110+00:00",
+      "config_id": null,
+      "company": "Stripe",
+      "role": "generator",
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 1906,
+      "output_tokens": 177,
+      "cost_usd": 0.002791,
+      "latency_ms": 2386,
+      "success_bool": true
+    },
+    {
+      "timestamp": "2026-05-28T08:01:31.443133+00:00",
+      "config_id": null,
+      "company": "Stripe",
+      "role": "generator",
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 7842,
+      "output_tokens": 189,
+      "cost_usd": 0.008787,
+      "latency_ms": 2707,
+      "success_bool": true
+    },
+    {
+      "timestamp": "2026-05-28T08:01:35.947322+00:00",
+      "config_id": null,
+      "company": "Stripe",
+      "role": "generator",
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 15227,
+      "output_tokens": 192,
+      "cost_usd": 0.016187,
+      "latency_ms": 2250,
+      "success_bool": true
+    },
+    {
+      "timestamp": "2026-05-28T08:01:41.271632+00:00",
+      "config_id": null,
+      "company": "Stripe",
+      "role": "generator",
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 18072,
+      "output_tokens": 203,
+      "cost_usd": 0.019087,
+      "latency_ms": 2200,
+      "success_bool": true
+    },
+    {
+      "timestamp": "2026-05-28T08:01:46.045787+00:00",
+      "config_id": null,
+      "company": "Stripe",
+      "role": "generator",
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 29313,
+      "output_tokens": 158,
+      "cost_usd": 0.030102999999999998,
+      "latency_ms": 2312,
+      "success_bool": true
+    },
+    {
+      "timestamp": "2026-05-28T08:02:00.937672+00:00",
+      "config_id": null,
+      "company": "Stripe",
+      "role": "generator",
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 33164,
+      "output_tokens": 171,
+      "cost_usd": 0.034019,
+      "latency_ms": 12642,
+      "success_bool": true
+    },
+    {
+      "timestamp": "2026-05-28T08:02:45.801322+00:00",
+      "config_id": null,
+      "company": "Stripe",
+      "role": "generator",
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 35038,
+      "output_tokens": 612,
+      "cost_usd": 0.038098,
+      "latency_ms": 41997,
+      "success_bool": true
+    }
+  ],
+  "tool_calls": [
+    {
+      "tool": "fetch_url",
+      "args": {
+        "url": "https://stripe.com"
+      },
+      "result_size_chars": 8734,
+      "latency_ms": 517
+    },
+    {
+      "tool": "web_search",
+      "args": {
+        "query": "Stripe CEO Patrick Collison"
+      },
+      "result_size_chars": 3067,
+      "latency_ms": 1025
+    },
+    {
+      "tool": "web_search",
+      "args": {
+        "query": "Stripe funding round 2024 2025 2026"
+      },
+      "result_size_chars": 4064,
+      "latency_ms": 1254
+    },
+    {
+      "tool": "fetch_url",
+      "args": {
+        "url": "https://en.wikipedia.org/wiki/Patrick_Collison"
+      },
+      "result_size_chars": 8709,
+      "latency_ms": 198
+    },
+    {
+      "tool": "fetch_url",
+      "args": {
+        "url": "https://stripe.com/newsroom/news/stripe-2025-update"
+      },
+      "result_size_chars": 8655,
+      "latency_ms": 906
+    },
+    {
+      "tool": "web_search",
+      "args": {
+        "query": "Stripe headquarters San Francisco location"
+      },
+      "result_size_chars": 2524,
+      "latency_ms": 1148
+    },
+    {
+      "tool": "web_search",
+      "args": {
+        "query": "Patrick Collison before Stripe previous role work experience"
+      },
+      "result_size_chars": 2670,
+      "latency_ms": 1010
+    },
+    {
+      "tool": "web_search",
+      "args": {
+        "query": "\"Stripe\" \"Series J\" OR \"Series I\" funding round 2024 2025 amount lead investor"
+      },
+      "result_size_chars": 3339,
+      "latency_ms": 1220
+    },
+    {
+      "tool": "web_search",
+      "args": {
+        "query": "Stripe customers case studies Amazon Shopify"
+      },
+      "result_size_chars": 2318,
+      "latency_ms": 892
+    },
+    {
+      "tool": "fetch_url",
+      "args": {
+        "url": "https://stripe.com/customers/shopify"
+      },
+      "result_size_chars": 8643,
+      "latency_ms": 456
+    },
+    {
+      "tool": "fetch_url",
+      "args": {
+        "url": "https://exa.ai/websets/directory/stripe-funding"
+      },
+      "result_size_chars": 11907,
+      "latency_ms": 720
+    },
+    {
+      "tool": "web_search",
+      "args": {
+        "query": "\"Patrick Collison\" Stripe before founder CTO engineer"
+      },
+      "result_size_chars": 3323,
+      "latency_ms": 1283
+    },
+    {
+      "tool": "web_search",
+      "args": {
+        "query": "Stripe Series I funding April 2024 694 million lead investor"
+      },
+      "result_size_chars": 2439,
+      "latency_ms": 1126
+    },
+    {
+      "tool": "fetch_url",
+      "args": {
+        "url": "https://www.forbes.com/profile/patrick-collison"
+      },
+      "result_size_chars": 8373,
+      "latency_ms": 1122
+    },
+    {
+      "tool": "web_search",
+      "args": {
+        "query": "\"Stripe\" \"Series I\" \"2024\" lead investor \"Sequoia\" OR \"Thrive\" OR \"Andreessen\""
+      },
+      "result_size_chars": 2908,
+      "latency_ms": 1632
+    },
+    {
+      "tool": "web_search",
+      "args": {
+        "query": "John Collison Stripe full name cofounder"
+      },
+      "result_size_chars": 3150,
+      "latency_ms": 1232
+    }
+  ],
+  "total_input_tokens": 140562,
+  "total_output_tokens": 1702,
+  "total_cost_usd": 0.14907199999999998,
+  "latency_sec": 82.252
+}

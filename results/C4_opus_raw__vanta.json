@@ -1,0 +1,182 @@
+{
+  "company_name": "Vanta",
+  "enrichment": {
+    "company_name": "Vanta",
+    "ceo_name": "Christina Cacioppo",
+    "cofounder_names": [
+      "Christina Cacioppo",
+      "Erik Goldman"
+    ],
+    "people_source_url": "https://en.wikipedia.org/wiki/Vanta_(company)?action=raw",
+    "hq_city": "San Francisco",
+    "hq_source_url": "https://en.wikipedia.org/wiki/Vanta_(company)?action=raw",
+    "last_funding_amount": "$150 million",
+    "last_funding_date": "2025-07-23",
+    "last_funding_lead_investor": "Wellington Management",
+    "funding_source_url": "https://www.vanta.com/resources/vanta-announces-series-d",
+    "ceo_previous_role": "Founding product manager at Dropbox, working on Dropbox Paper (left Dropbox in 2016)",
+    "ceo_previous_role_source_url": "https://en.wikipedia.org/wiki/Vanta_(company)?action=raw",
+    "named_customer_or_partner": "Snowflake",
+    "customer_source_url": "https://www.vanta.com/customers/snowflake"
+  },
+  "llm_calls": [
+    {
+      "timestamp": "2026-05-28T08:25:35.090056+00:00",
+      "config_id": null,
+      "company": "Vanta",
+      "role": "generator",
+      "model": "claude-opus-4-7",
+      "input_tokens": 2547,
+      "output_tokens": 168,
+      "cost_usd": 0.050804999999999996,
+      "latency_ms": 3342,
+      "success_bool": true
+    },
+    {
+      "timestamp": "2026-05-28T08:25:41.437695+00:00",
+      "config_id": null,
+      "company": "Vanta",
+      "role": "generator",
+      "model": "claude-opus-4-7",
+      "input_tokens": 4698,
+      "output_tokens": 225,
+      "cost_usd": 0.087345,
+      "latency_ms": 4169,
+      "success_bool": true
+    },
+    {
+      "timestamp": "2026-05-28T08:25:58.035195+00:00",
+      "config_id": null,
+      "company": "Vanta",
+      "role": "generator",
+      "model": "claude-opus-4-7",
+      "input_tokens": 9712,
+      "output_tokens": 240,
+      "cost_usd": 0.16368,
+      "latency_ms": 6245,
+      "success_bool": true
+    },
+    {
+      "timestamp": "2026-05-28T08:26:05.911552+00:00",
+      "config_id": null,
+      "company": "Vanta",
+      "role": "generator",
+      "model": "claude-opus-4-7",
+      "input_tokens": 17397,
+      "output_tokens": 291,
+      "cost_usd": 0.28278,
+      "latency_ms": 6433,
+      "success_bool": true
+    },
+    {
+      "timestamp": "2026-05-28T08:26:13.286350+00:00",
+      "config_id": null,
+      "company": "Vanta",
+      "role": "generator",
+      "model": "claude-opus-4-7",
+      "input_tokens": 23164,
+      "output_tokens": 226,
+      "cost_usd": 0.36441,
+      "latency_ms": 5948,
+      "success_bool": true
+    },
+    {
+      "timestamp": "2026-05-28T08:26:24.650504+00:00",
+      "config_id": null,
+      "company": "Vanta",
+      "role": "generator",
+      "model": "claude-opus-4-7",
+      "input_tokens": 28398,
+      "output_tokens": 633,
+      "cost_usd": 0.473445,
+      "latency_ms": 10086,
+      "success_bool": true
+    }
+  ],
+  "tool_calls": [
+    {
+      "tool": "web_search",
+      "args": {
+        "query": "Vanta company CEO founder HQ Wikipedia"
+      },
+      "result_size_chars": 2833,
+      "latency_ms": 1003
+    },
+    {
+      "tool": "web_search",
+      "args": {
+        "query": "Vanta latest funding round 2024 2025 Series"
+      },
+      "result_size_chars": 1939,
+      "latency_ms": 1174
+    },
+    {
+      "tool": "fetch_url",
+      "args": {
+        "url": "https://en.wikipedia.org/wiki/Vanta_(company)"
+      },
+      "result_size_chars": 8713,
+      "latency_ms": 178
+    },
+    {
+      "tool": "fetch_url",
+      "args": {
+        "url": "https://www.businesswire.com/news/home/20250723901336/en/Vanta-Raises-%24150M-Series-D-to-Power-the-Future-of-AI-Driven-Trust"
+      },
+      "result_size_chars": 276,
+      "latency_ms": 10172
+    },
+    {
+      "tool": "fetch_url",
+      "args": {
+        "url": "https://www.cnbc.com/2025/07/23/crowdstrike-backed-vanta-is-valued-at-4-billion-in-new-funding-round.html"
+      },
+      "result_size_chars": 8318,
+      "latency_ms": 1208
+    },
+    {
+      "tool": "fetch_url",
+      "args": {
+        "url": "https://en.wikipedia.org/wiki/Vanta_(company)?action=raw"
+      },
+      "result_size_chars": 8278,
+      "latency_ms": 234
+    },
+    {
+      "tool": "fetch_url",
+      "args": {
+        "url": "https://www.vanta.com/resources/vanta-announces-series-d"
+      },
+      "result_size_chars": 8649,
+      "latency_ms": 255
+    },
+    {
+      "tool": "web_search",
+      "args": {
+        "query": "\"Vanta\" customer case study Snowflake OR GitHub OR Ramp"
+      },
+      "result_size_chars": 3232,
+      "latency_ms": 1169
+    },
+    {
+      "tool": "fetch_url",
+      "args": {
+        "url": "https://www.vanta.com/customers/snowflake"
+      },
+      "result_size_chars": 8475,
+      "latency_ms": 219
+    },
+    {
+      "tool": "web_search",
+      "args": {
+        "query": "Vanta Series D Wellington Management lead investor July 2025"
+      },
+      "result_size_chars": 2344,
+      "latency_ms": 1057
+    }
+  ],
+  "total_input_tokens": 85916,
+  "total_output_tokens": 1783,
+  "total_cost_usd": 1.4224649999999999,
+  "latency_sec": 52.912
+}

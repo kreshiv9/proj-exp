@@ -19,7 +19,8 @@ from tenacity import (
 
 FETCH_TIMEOUT_SECONDS = 10
 FETCH_MAX_REDIRECTS = 3
-FETCH_MAX_CHARS = 50_000
+FETCH_MAX_CHARS = 8_000
+SEARCH_SNIPPET_MAX_CHARS = 500
 
 
 def _is_retryable_error(exc: BaseException) -> bool:
@@ -74,7 +75,7 @@ def _tavily_search(query: str, max_results: int) -> dict[str, Any]:
     return client.search(query=query, max_results=max_results)
 
 
-def web_search(query: str, max_results: int = 5) -> list[dict[str, str]]:
+def web_search(query: str, max_results: int = 6) -> list[dict[str, str]]:
     start = time.perf_counter()
     results: list[dict[str, str]] = []
 
@@ -85,7 +86,7 @@ def web_search(query: str, max_results: int = 5) -> list[dict[str, str]]:
                 {
                     "title": str(item.get("title", "")),
                     "url": str(item.get("url", "")),
-                    "snippet": str(item.get("content", "")),
+                    "snippet": str(item.get("content", ""))[:SEARCH_SNIPPET_MAX_CHARS],
                 }
             )
         return results

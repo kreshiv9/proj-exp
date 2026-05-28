@@ -1,0 +1,217 @@
+{
+  "company_name": "Ashby",
+  "enrichment": {
+    "company_name": "Ashby",
+    "ceo_name": "Benjamin Encz",
+    "cofounder_names": [
+      "Abhik Pramanik"
+    ],
+    "people_source_url": "https://www.ashbyhq.com/team/leadership",
+    "hq_city": "San Francisco",
+    "hq_source_url": "https://www.thesaasnews.com/news/ashby-raises-50-million-in-series-d",
+    "last_funding_amount": "$50 million",
+    "last_funding_date": "2025-07-22",
+    "last_funding_lead_investor": "Alkeon Capital",
+    "funding_source_url": "https://www.thesaasnews.com/news/ashby-raises-50-million-in-series-d",
+    "ceo_previous_role": "Director of Engineering at PlanGrid",
+    "ceo_previous_role_source_url": "https://register.transform.us/2025/speaker/1577448/benjamin-encz",
+    "named_customer_or_partner": "OpenAI",
+    "customer_source_url": "https://news.crunchbase.com/venture/ai-powered-hr-platform-ashby-raise"
+  },
+  "llm_calls": [
+    {
+      "timestamp": "2026-05-28T08:19:51.248880+00:00",
+      "config_id": null,
+      "company": "Ashby",
+      "role": "generator",
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 1911,
+      "output_tokens": 134,
+      "cost_usd": 0.002581,
+      "latency_ms": 33934,
+      "success_bool": true
+    },
+    {
+      "timestamp": "2026-05-28T08:19:55.531364+00:00",
+      "config_id": null,
+      "company": "Ashby",
+      "role": "generator",
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 6833,
+      "output_tokens": 224,
+      "cost_usd": 0.007953,
+      "latency_ms": 2414,
+      "success_bool": true
+    },
+    {
+      "timestamp": "2026-05-28T08:20:00.780039+00:00",
+      "config_id": null,
+      "company": "Ashby",
+      "role": "generator",
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 10998,
+      "output_tokens": 227,
+      "cost_usd": 0.012133000000000001,
+      "latency_ms": 3090,
+      "success_bool": true
+    },
+    {
+      "timestamp": "2026-05-28T08:20:14.413572+00:00",
+      "config_id": null,
+      "company": "Ashby",
+      "role": "generator",
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 21404,
+      "output_tokens": 140,
+      "cost_usd": 0.022104,
+      "latency_ms": 11363,
+      "success_bool": true
+    },
+    {
+      "timestamp": "2026-05-28T08:20:40.593482+00:00",
+      "config_id": null,
+      "company": "Ashby",
+      "role": "generator",
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 23401,
+      "output_tokens": 157,
+      "cost_usd": 0.024186000000000003,
+      "latency_ms": 23766,
+      "success_bool": true
+    },
+    {
+      "timestamp": "2026-05-28T08:21:09.789863+00:00",
+      "config_id": null,
+      "company": "Ashby",
+      "role": "generator",
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 30641,
+      "output_tokens": 108,
+      "cost_usd": 0.031181,
+      "latency_ms": 26860,
+      "success_bool": true
+    },
+    {
+      "timestamp": "2026-05-28T08:21:49.196935+00:00",
+      "config_id": null,
+      "company": "Ashby",
+      "role": "generator",
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 31354,
+      "output_tokens": 565,
+      "cost_usd": 0.034179,
+      "latency_ms": 38421,
+      "success_bool": true
+    }
+  ],
+  "tool_calls": [
+    {
+      "tool": "fetch_url",
+      "args": {
+        "url": "https://ashbyhq.com"
+      },
+      "result_size_chars": 8285,
+      "latency_ms": 580
+    },
+    {
+      "tool": "web_search",
+      "args": {
+        "query": "Ashby CEO founder funding"
+      },
+      "result_size_chars": 2604,
+      "latency_ms": 1286
+    },
+    {
+      "tool": "web_search",
+      "args": {
+        "query": "Ashby $50 million Series D 2024 2025 funding lead investor"
+      },
+      "result_size_chars": 3309,
+      "latency_ms": 1035
+    },
+    {
+      "tool": "web_search",
+      "args": {
+        "query": "Benjamin Encz Ashby CEO previous role before Ashby"
+      },
+      "result_size_chars": 2656,
+      "latency_ms": 970
+    },
+    {
+      "tool": "fetch_url",
+      "args": {
+        "url": "https://www.crunchbase.com/organization/ashby"
+      },
+      "result_size_chars": 5887,
+      "latency_ms": 151
+    },
+    {
+      "tool": "fetch_url",
+      "args": {
+        "url": "https://www.thesaasnews.com/news/ashby-raises-50-million-in-series-d"
+      },
+      "result_size_chars": 8673,
+      "latency_ms": 795
+    },
+    {
+      "tool": "fetch_url",
+      "args": {
+        "url": "https://news.crunchbase.com/venture/ai-powered-hr-platform-ashby-raise"
+      },
+      "result_size_chars": 8687,
+      "latency_ms": 849
+    },
+    {
+      "tool": "fetch_url",
+      "args": {
+        "url": "https://www.ashbyhq.com/team/leadership"
+      },
+      "result_size_chars": 8248,
+      "latency_ms": 623
+    },
+    {
+      "tool": "web_search",
+      "args": {
+        "query": "\"Benjamin Encz\" LinkedIn software engineer before Ashby"
+      },
+      "result_size_chars": 2599,
+      "latency_ms": 1029
+    },
+    {
+      "tool": "web_search",
+      "args": {
+        "query": "Ashby Series D July 2025 funding announcement date"
+      },
+      "result_size_chars": 2908,
+      "latency_ms": 1382
+    },
+    {
+      "tool": "fetch_url",
+      "args": {
+        "url": "https://www.ashbyhq.com/blog/culture/series-d"
+      },
+      "result_size_chars": 8311,
+      "latency_ms": 1135
+    },
+    {
+      "tool": "fetch_url",
+      "args": {
+        "url": "https://www.linkedin.com/in/benjaminencz"
+      },
+      "result_size_chars": 8690,
+      "latency_ms": 1199
+    },
+    {
+      "tool": "web_search",
+      "args": {
+        "query": "Benjamin Encz Ashby \"previous role\" OR \"before Ashby\" OR background career"
+      },
+      "result_size_chars": 1832,
+      "latency_ms": 985
+    }
+  ],
+  "total_input_tokens": 126542,
+  "total_output_tokens": 1555,
+  "total_cost_usd": 0.13431700000000002,
+  "latency_sec": 151.888
+}

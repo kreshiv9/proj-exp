@@ -1,0 +1,209 @@
+{
+  "company_name": "Clay",
+  "enrichment": {
+    "company_name": "Clay",
+    "ceo_name": "Kareem Amin",
+    "cofounder_names": [
+      "Kareem Amin",
+      "Nicolae Rusan",
+      "Varun Anand"
+    ],
+    "people_source_url": "https://www.linkedin.com/in/kareemamin",
+    "hq_city": "New York",
+    "hq_source_url": "https://betakit.com/canadian-founded-new-york-based-ai-startup-clay-closes-63-million-cad-series-b",
+    "last_funding_amount": "$100M",
+    "last_funding_date": "2025-08-05",
+    "last_funding_lead_investor": "CapitalG",
+    "funding_source_url": "https://www.capitalg.com/insights/clay-the-go-to-market-platform-for-the-ai-era",
+    "ceo_previous_role": "Program Manager at Microsoft",
+    "ceo_previous_role_source_url": "https://www.crunchbase.com/person/kareem-amin",
+    "named_customer_or_partner": "Anthropic",
+    "customer_source_url": "https://www.clay.com/customers/anthropic"
+  },
+  "llm_calls": [
+    {
+      "timestamp": "2026-05-28T08:13:20.161607+00:00",
+      "config_id": null,
+      "company": "Clay",
+      "role": "generator",
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 1904,
+      "output_tokens": 143,
+      "cost_usd": 0.0026190000000000002,
+      "latency_ms": 24427,
+      "success_bool": true
+    },
+    {
+      "timestamp": "2026-05-28T08:13:24.608487+00:00",
+      "config_id": null,
+      "company": "Clay",
+      "role": "generator",
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 6143,
+      "output_tokens": 179,
+      "cost_usd": 0.007038,
+      "latency_ms": 2684,
+      "success_bool": true
+    },
+    {
+      "timestamp": "2026-05-28T08:13:27.949621+00:00",
+      "config_id": null,
+      "company": "Clay",
+      "role": "generator",
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 9173,
+      "output_tokens": 175,
+      "cost_usd": 0.010048000000000001,
+      "latency_ms": 2047,
+      "success_bool": true
+    },
+    {
+      "timestamp": "2026-05-28T08:13:40.949653+00:00",
+      "config_id": null,
+      "company": "Clay",
+      "role": "generator",
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 13708,
+      "output_tokens": 205,
+      "cost_usd": 0.014733,
+      "latency_ms": 10486,
+      "success_bool": true
+    },
+    {
+      "timestamp": "2026-05-28T08:13:58.459271+00:00",
+      "config_id": null,
+      "company": "Clay",
+      "role": "generator",
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 15904,
+      "output_tokens": 236,
+      "cost_usd": 0.017084000000000002,
+      "latency_ms": 15156,
+      "success_bool": true
+    },
+    {
+      "timestamp": "2026-05-28T08:14:15.822606+00:00",
+      "config_id": null,
+      "company": "Clay",
+      "role": "generator",
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 17204,
+      "output_tokens": 99,
+      "cost_usd": 0.017699,
+      "latency_ms": 6197,
+      "success_bool": true
+    },
+    {
+      "timestamp": "2026-05-28T08:14:40.194411+00:00",
+      "config_id": null,
+      "company": "Clay",
+      "role": "generator",
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 20763,
+      "output_tokens": 613,
+      "cost_usd": 0.023828000000000002,
+      "latency_ms": 24149,
+      "success_bool": true
+    }
+  ],
+  "tool_calls": [
+    {
+      "tool": "fetch_url",
+      "args": {
+        "url": "https://clay.com"
+      },
+      "result_size_chars": 8811,
+      "latency_ms": 578
+    },
+    {
+      "tool": "web_search",
+      "args": {
+        "query": "Clay company CEO founder funding",
+        "max_results": 6
+      },
+      "result_size_chars": 3086,
+      "latency_ms": 1183
+    },
+    {
+      "tool": "fetch_url",
+      "args": {
+        "url": "https://www.crunchbase.com/organization/clay-953f"
+      },
+      "result_size_chars": 5891,
+      "latency_ms": 139
+    },
+    {
+      "tool": "web_search",
+      "args": {
+        "query": "Clay Kareem Amin Nicolae Rusan founders New York HQ",
+        "max_results": 6
+      },
+      "result_size_chars": 2567,
+      "latency_ms": 1153
+    },
+    {
+      "tool": "fetch_url",
+      "args": {
+        "url": "https://www.linkedin.com/in/kareemamin"
+      },
+      "result_size_chars": 8758,
+      "latency_ms": 1201
+    },
+    {
+      "tool": "web_search",
+      "args": {
+        "query": "\"Clay\" \"Series C\" \"$100M\" \"CapitalG\" 2025 funding date",
+        "max_results": 6
+      },
+      "result_size_chars": 3592,
+      "latency_ms": 1312
+    },
+    {
+      "tool": "web_search",
+      "args": {
+        "query": "\"Clay\" \"Series C\" \"August 2025\" OR \"August 5 2025\" CapitalG funding announcement",
+        "max_results": 6
+      },
+      "result_size_chars": 3498,
+      "latency_ms": 1059
+    },
+    {
+      "tool": "web_search",
+      "args": {
+        "query": "Kareem Amin Microsoft program manager",
+        "max_results": 6
+      },
+      "result_size_chars": 3083,
+      "latency_ms": 1293
+    },
+    {
+      "tool": "fetch_url",
+      "args": {
+        "url": "https://www.businesswire.com/news/home/20250805719448/en/AI-GTM-Leader-Clay-Raises-%24100M-Series-C-to-Fuel-GTM-Engineering-Roles-Industrywide"
+      },
+      "result_size_chars": 293,
+      "latency_ms": 10154
+    },
+    {
+      "tool": "web_search",
+      "args": {
+        "query": "Clay customer case study OpenAI Rippling Anthropic Vanta",
+        "max_results": 6
+      },
+      "result_size_chars": 3241,
+      "latency_ms": 1010
+    },
+    {
+      "tool": "fetch_url",
+      "args": {
+        "url": "https://www.clay.com/customers/anthropic"
+      },
+      "result_size_chars": 9042,
+      "latency_ms": 221
+    }
+  ],
+  "total_input_tokens": 84799,
+  "total_output_tokens": 1650,
+  "total_cost_usd": 0.093049,
+  "latency_sec": 104.466
+}

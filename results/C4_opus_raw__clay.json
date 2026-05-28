@@ -1,0 +1,8 @@
+{
+  "error": "Expecting property name enclosed in double quotes: line 5 column 3 (char 77)",
+  "config_id": "C4_opus_raw",
+  "company": {
+    "name": "Clay",
+    "url": "https://clay.com"
+  }
+}

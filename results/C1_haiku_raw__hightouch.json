@@ -1,0 +1,220 @@
+{
+  "company_name": "Hightouch",
+  "enrichment": {
+    "company_name": "Hightouch",
+    "ceo_name": "Tejas Manohar",
+    "cofounder_names": [
+      "Tejas Manohar",
+      "Kashish Gupta",
+      "Joshua Curl"
+    ],
+    "people_source_url": "https://www.ycombinator.com/companies/hightouch",
+    "hq_city": "San Francisco",
+    "hq_source_url": "https://www.ycombinator.com/companies/hightouch",
+    "last_funding_amount": "$150M",
+    "last_funding_date": "2026-04-29",
+    "last_funding_lead_investor": "Goldman Sachs Growth Equity, Bain Capital Ventures",
+    "funding_source_url": "https://tracxn.com/d/companies/hightouch/__XxqJKKRE0rjJAMk_VRMOnKQW-3iqHl40EfMcC7KoGao/funding-and-investors",
+    "ceo_previous_role": "Early engineer at Segment",
+    "ceo_previous_role_source_url": "https://agilebrandguide.com/wiki/uncategorized/tejas-manohar/",
+    "named_customer_or_partner": "WeightWatchers",
+    "customer_source_url": "https://www.featuredcustomers.com/vendor/hightouch/case-studies"
+  },
+  "llm_calls": [
+    {
+      "timestamp": "2026-05-28T08:16:49.670860+00:00",
+      "config_id": null,
+      "company": "Hightouch",
+      "role": "generator",
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 1912,
+      "output_tokens": 157,
+      "cost_usd": 0.002697,
+      "latency_ms": 15234,
+      "success_bool": true
+    },
+    {
+      "timestamp": "2026-05-28T08:16:53.773649+00:00",
+      "config_id": null,
+      "company": "Hightouch",
+      "role": "generator",
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 7905,
+      "output_tokens": 230,
+      "cost_usd": 0.009055,
+      "latency_ms": 2363,
+      "success_bool": true
+    },
+    {
+      "timestamp": "2026-05-28T08:17:00.207546+00:00",
+      "config_id": null,
+      "company": "Hightouch",
+      "role": "generator",
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 14311,
+      "output_tokens": 190,
+      "cost_usd": 0.015261,
+      "latency_ms": 4506,
+      "success_bool": true
+    },
+    {
+      "timestamp": "2026-05-28T08:17:18.723488+00:00",
+      "config_id": null,
+      "company": "Hightouch",
+      "role": "generator",
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 16472,
+      "output_tokens": 194,
+      "cost_usd": 0.017442,
+      "latency_ms": 16647,
+      "success_bool": true
+    },
+    {
+      "timestamp": "2026-05-28T08:17:38.634237+00:00",
+      "config_id": null,
+      "company": "Hightouch",
+      "role": "generator",
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 23598,
+      "output_tokens": 159,
+      "cost_usd": 0.024393,
+      "latency_ms": 17524,
+      "success_bool": true
+    },
+    {
+      "timestamp": "2026-05-28T08:18:08.624689+00:00",
+      "config_id": null,
+      "company": "Hightouch",
+      "role": "generator",
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 24894,
+      "output_tokens": 84,
+      "cost_usd": 0.025314,
+      "latency_ms": 28706,
+      "success_bool": true
+    },
+    {
+      "timestamp": "2026-05-28T08:18:36.887012+00:00",
+      "config_id": null,
+      "company": "Hightouch",
+      "role": "generator",
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 28700,
+      "output_tokens": 102,
+      "cost_usd": 0.02921,
+      "latency_ms": 27952,
+      "success_bool": true
+    },
+    {
+      "timestamp": "2026-05-28T08:19:17.285836+00:00",
+      "config_id": null,
+      "company": "Hightouch",
+      "role": "generator",
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 33928,
+      "output_tokens": 689,
+      "cost_usd": 0.037373,
+      "latency_ms": 39787,
+      "success_bool": true
+    }
+  ],
+  "tool_calls": [
+    {
+      "tool": "fetch_url",
+      "args": {
+        "url": "https://hightouch.com"
+      },
+      "result_size_chars": 8282,
+      "latency_ms": 466
+    },
+    {
+      "tool": "web_search",
+      "args": {
+        "query": "Hightouch CEO founder funding",
+        "max_results": 6
+      },
+      "result_size_chars": 3397,
+      "latency_ms": 1272
+    },
+    {
+      "tool": "web_search",
+      "args": {
+        "query": "Hightouch $150M Series D funding date 2025 2026",
+        "max_results": 6
+      },
+      "result_size_chars": 3955,
+      "latency_ms": 1224
+    },
+    {
+      "tool": "fetch_url",
+      "args": {
+        "url": "https://hightouch.com/authors/kashish-gupta"
+      },
+      "result_size_chars": 8239,
+      "latency_ms": 702
+    },
+    {
+      "tool": "web_search",
+      "args": {
+        "query": "Tejas Manohar Hightouch CEO previous role before Hightouch",
+        "max_results": 6
+      },
+      "result_size_chars": 2692,
+      "latency_ms": 924
+    },
+    {
+      "tool": "web_search",
+      "args": {
+        "query": "Hightouch customer case study partner",
+        "max_results": 6
+      },
+      "result_size_chars": 3131,
+      "latency_ms": 943
+    },
+    {
+      "tool": "fetch_url",
+      "args": {
+        "url": "https://agilebrandguide.com/wiki/uncategorized/tejas-manohar"
+      },
+      "result_size_chars": 8246,
+      "latency_ms": 1757
+    },
+    {
+      "tool": "fetch_url",
+      "args": {
+        "url": "https://www.featuredcustomers.com/vendor/hightouch/case-studies"
+      },
+      "result_size_chars": 8548,
+      "latency_ms": 628
+    },
+    {
+      "tool": "web_search",
+      "args": {
+        "query": "\"Tejas Manohar\" \"Kashish Gupta\" Hightouch about team",
+        "max_results": 6
+      },
+      "result_size_chars": 3688,
+      "latency_ms": 1283
+    },
+    {
+      "tool": "fetch_url",
+      "args": {
+        "url": "https://hightouch.com/about"
+      },
+      "result_size_chars": 8378,
+      "latency_ms": 309
+    },
+    {
+      "tool": "fetch_url",
+      "args": {
+        "url": "https://www.ycombinator.com/companies/hightouch"
+      },
+      "result_size_chars": 8280,
+      "latency_ms": 611
+    }
+  ],
+  "total_input_tokens": 151720,
+  "total_output_tokens": 1805,
+  "total_cost_usd": 0.16074500000000003,
+  "latency_sec": 162.853
+}

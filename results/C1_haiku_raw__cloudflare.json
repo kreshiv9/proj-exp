@@ -1,0 +1,258 @@
+{
+  "company_name": "Cloudflare",
+  "enrichment": {
+    "company_name": "Cloudflare",
+    "ceo_name": "Matthew Browning Prince",
+    "cofounder_names": [
+      "Michelle Zatlyn",
+      "Lee Holloway"
+    ],
+    "people_source_url": "https://blog.cloudflare.com/founders-letter",
+    "hq_city": "San Francisco",
+    "hq_source_url": "https://builtin.com/company/cloudflare/offices",
+    "last_funding_amount": "$525 million",
+    "last_funding_date": "2019-09-13",
+    "last_funding_lead_investor": null,
+    "funding_source_url": "https://siliconangle.com/2019/09/13/investors-send-cloudflares-shares-soaring-27-ipo-hauls-525m",
+    "ceo_previous_role": "Law professor and CEO of Unspam (his startup)",
+    "ceo_previous_role_source_url": "https://www.law.uchicago.edu/news/matthew-prince-00-internet-entrepreneurs-company-supercharges-websites",
+    "named_customer_or_partner": "Applied Systems",
+    "customer_source_url": "https://www.cloudflare.com/case-studies/applied-systems/"
+  },
+  "llm_calls": [
+    {
+      "timestamp": "2026-05-28T08:03:21.017705+00:00",
+      "config_id": null,
+      "company": "Cloudflare",
+      "role": "generator",
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 1912,
+      "output_tokens": 150,
+      "cost_usd": 0.002662,
+      "latency_ms": 35196,
+      "success_bool": true
+    },
+    {
+      "timestamp": "2026-05-28T08:03:25.313640+00:00",
+      "config_id": null,
+      "company": "Cloudflare",
+      "role": "generator",
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 5728,
+      "output_tokens": 170,
+      "cost_usd": 0.006578,
+      "latency_ms": 1902,
+      "success_bool": true
+    },
+    {
+      "timestamp": "2026-05-28T08:03:28.680321+00:00",
+      "config_id": null,
+      "company": "Cloudflare",
+      "role": "generator",
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 9686,
+      "output_tokens": 181,
+      "cost_usd": 0.010591,
+      "latency_ms": 1932,
+      "success_bool": true
+    },
+    {
+      "timestamp": "2026-05-28T08:03:41.184482+00:00",
+      "config_id": null,
+      "company": "Cloudflare",
+      "role": "generator",
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 11552,
+      "output_tokens": 196,
+      "cost_usd": 0.012532,
+      "latency_ms": 9725,
+      "success_bool": true
+    },
+    {
+      "timestamp": "2026-05-28T08:03:55.075698+00:00",
+      "config_id": null,
+      "company": "Cloudflare",
+      "role": "generator",
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 13369,
+      "output_tokens": 197,
+      "cost_usd": 0.014354,
+      "latency_ms": 11462,
+      "success_bool": true
+    },
+    {
+      "timestamp": "2026-05-28T08:04:12.421706+00:00",
+      "config_id": null,
+      "company": "Cloudflare",
+      "role": "generator",
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 17585,
+      "output_tokens": 185,
+      "cost_usd": 0.01851,
+      "latency_ms": 15565,
+      "success_bool": true
+    },
+    {
+      "timestamp": "2026-05-28T08:04:34.262653+00:00",
+      "config_id": null,
+      "company": "Cloudflare",
+      "role": "generator",
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 22750,
+      "output_tokens": 289,
+      "cost_usd": 0.024194999999999998,
+      "latency_ms": 19935,
+      "success_bool": true
+    },
+    {
+      "timestamp": "2026-05-28T08:04:59.037769+00:00",
+      "config_id": null,
+      "company": "Cloudflare",
+      "role": "generator",
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 23908,
+      "output_tokens": 109,
+      "cost_usd": 0.024453,
+      "latency_ms": 23538,
+      "success_bool": true
+    },
+    {
+      "timestamp": "2026-05-28T08:05:32.301047+00:00",
+      "config_id": null,
+      "company": "Cloudflare",
+      "role": "generator",
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 26880,
+      "output_tokens": 525,
+      "cost_usd": 0.029505,
+      "latency_ms": 32463,
+      "success_bool": true
+    }
+  ],
+  "tool_calls": [
+    {
+      "tool": "web_search",
+      "args": {
+        "query": "Cloudflare CEO founder HQ",
+        "max_results": 6
+      },
+      "result_size_chars": 2399,
+      "latency_ms": 1531
+    },
+    {
+      "tool": "fetch_url",
+      "args": {
+        "url": "https://cloudflare.com"
+      },
+      "result_size_chars": 8714,
+      "latency_ms": 861
+    },
+    {
+      "tool": "fetch_url",
+      "args": {
+        "url": "https://en.wikipedia.org/wiki/Cloudflare"
+      },
+      "result_size_chars": 8692,
+      "latency_ms": 264
+    },
+    {
+      "tool": "web_search",
+      "args": {
+        "query": "Cloudflare most recent funding round 2024 2025 2026",
+        "max_results": 6
+      },
+      "result_size_chars": 2025,
+      "latency_ms": 1168
+    },
+    {
+      "tool": "web_search",
+      "args": {
+        "query": "Cloudflare founders Michelle Zatlyn Lee Holloway cofounder",
+        "max_results": 6
+      },
+      "result_size_chars": 2637,
+      "latency_ms": 1054
+    },
+    {
+      "tool": "web_search",
+      "args": {
+        "query": "Cloudflare headquarters city San Francisco",
+        "max_results": 6
+      },
+      "result_size_chars": 3234,
+      "latency_ms": 1723
+    },
+    {
+      "tool": "web_search",
+      "args": {
+        "query": "Matthew Prince previous job role before Cloudflare lawyer startup",
+        "max_results": 6
+      },
+      "result_size_chars": 2998,
+      "latency_ms": 1073
+    },
+    {
+      "tool": "web_search",
+      "args": {
+        "query": "Cloudflare customers case study partners Cisco Apple Amazon",
+        "max_results": 6
+      },
+      "result_size_chars": 2839,
+      "latency_ms": 1354
+    },
+    {
+      "tool": "fetch_url",
+      "args": {
+        "url": "https://www.cloudflare.com/case-studies"
+      },
+      "result_size_chars": 8713,
+      "latency_ms": 870
+    },
+    {
+      "tool": "web_search",
+      "args": {
+        "query": "\"Cloudflare\" \"funding round\" \"2024\" OR \"2025\" OR \"2026\" amount investor",
+        "max_results": 6
+      },
+      "result_size_chars": 3260,
+      "latency_ms": 909
+    },
+    {
+      "tool": "fetch_url",
+      "args": {
+        "url": "https://www.cloudflare.com/case-studies/applied-systems"
+      },
+      "result_size_chars": 8713,
+      "latency_ms": 708
+    },
+    {
+      "tool": "fetch_url",
+      "args": {
+        "url": "https://www.law.uchicago.edu/news/matthew-prince-00-internet-entrepreneurs-company-supercharges-websites"
+      },
+      "result_size_chars": 8629,
+      "latency_ms": 1196
+    },
+    {
+      "tool": "web_search",
+      "args": {
+        "query": "Cloudflare IPO September 13 2019 $525 million",
+        "max_results": 6
+      },
+      "result_size_chars": 2857,
+      "latency_ms": 1236
+    },
+    {
+      "tool": "fetch_url",
+      "args": {
+        "url": "https://www.cloudflare.com/press/press-releases/2019/cloudflare-announces-pricing-of-initial-public-offering"
+      },
+      "result_size_chars": 8559,
+      "latency_ms": 798
+    }
+  ],
+  "total_input_tokens": 133370,
+  "total_output_tokens": 2002,
+  "total_cost_usd": 0.14338,
+  "latency_sec": 166.482
+}

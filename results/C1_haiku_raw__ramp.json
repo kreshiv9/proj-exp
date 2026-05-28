@@ -1,0 +1,223 @@
+{
+  "company_name": "Ramp",
+  "enrichment": {
+    "company_name": "Ramp",
+    "ceo_name": "Eric Glyman",
+    "cofounder_names": [
+      "Eric Glyman",
+      "Karim Atiyeh",
+      "Gene Lee"
+    ],
+    "people_source_url": "https://en.wikipedia.org/wiki/Ramp_(company)",
+    "hq_city": "New York",
+    "hq_source_url": "https://support.ramp.com/hc/en-us/categories/4408650449043-About-Ramp",
+    "last_funding_amount": "$300 million",
+    "last_funding_date": "2025-11-17",
+    "last_funding_lead_investor": "Lightspeed Venture Partners",
+    "funding_source_url": "https://lsvp.com/stories/why-we-led-ramps-300m-round-building-the-intelligence-layer-for-finance/",
+    "ceo_previous_role": "Co-founder of Paribus (acquired by Capital One in 2016)",
+    "ceo_previous_role_source_url": "https://www.youtube.com/watch?v=KNQ1raBnm1Y",
+    "named_customer_or_partner": "Notion",
+    "customer_source_url": "https://www.notion.com/customers/ramp"
+  },
+  "llm_calls": [
+    {
+      "timestamp": "2026-05-28T08:06:01.380955+00:00",
+      "config_id": null,
+      "company": "Ramp",
+      "role": "generator",
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 1909,
+      "output_tokens": 132,
+      "cost_usd": 0.002569,
+      "latency_ms": 29053,
+      "success_bool": true
+    },
+    {
+      "timestamp": "2026-05-28T08:06:04.864085+00:00",
+      "config_id": null,
+      "company": "Ramp",
+      "role": "generator",
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 7184,
+      "output_tokens": 152,
+      "cost_usd": 0.007944,
+      "latency_ms": 1637,
+      "success_bool": true
+    },
+    {
+      "timestamp": "2026-05-28T08:06:10.607371+00:00",
+      "config_id": null,
+      "company": "Ramp",
+      "role": "generator",
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 11246,
+      "output_tokens": 186,
+      "cost_usd": 0.012176000000000001,
+      "latency_ms": 4181,
+      "success_bool": true
+    },
+    {
+      "timestamp": "2026-05-28T08:06:24.634522+00:00",
+      "config_id": null,
+      "company": "Ramp",
+      "role": "generator",
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 15391,
+      "output_tokens": 126,
+      "cost_usd": 0.016021,
+      "latency_ms": 12455,
+      "success_bool": true
+    },
+    {
+      "timestamp": "2026-05-28T08:06:42.492421+00:00",
+      "config_id": null,
+      "company": "Ramp",
+      "role": "generator",
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 17123,
+      "output_tokens": 159,
+      "cost_usd": 0.017918,
+      "latency_ms": 15448,
+      "success_bool": true
+    },
+    {
+      "timestamp": "2026-05-28T08:07:05.840345+00:00",
+      "config_id": null,
+      "company": "Ramp",
+      "role": "generator",
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 24299,
+      "output_tokens": 281,
+      "cost_usd": 0.025704,
+      "latency_ms": 22231,
+      "success_bool": true
+    },
+    {
+      "timestamp": "2026-05-28T08:07:32.811710+00:00",
+      "config_id": null,
+      "company": "Ramp",
+      "role": "generator",
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 25412,
+      "output_tokens": 97,
+      "cost_usd": 0.025897,
+      "latency_ms": 25956,
+      "success_bool": true
+    },
+    {
+      "timestamp": "2026-05-28T08:08:07.056944+00:00",
+      "config_id": null,
+      "company": "Ramp",
+      "role": "generator",
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 28789,
+      "output_tokens": 388,
+      "cost_usd": 0.030729,
+      "latency_ms": 33974,
+      "success_bool": true
+    }
+  ],
+  "tool_calls": [
+    {
+      "tool": "fetch_url",
+      "args": {
+        "url": "https://ramp.com"
+      },
+      "result_size_chars": 8485,
+      "latency_ms": 648
+    },
+    {
+      "tool": "web_search",
+      "args": {
+        "query": "Ramp company CEO founder funding"
+      },
+      "result_size_chars": 3393,
+      "latency_ms": 1196
+    },
+    {
+      "tool": "fetch_url",
+      "args": {
+        "url": "https://en.wikipedia.org/wiki/Ramp_(company)"
+      },
+      "result_size_chars": 8711,
+      "latency_ms": 262
+    },
+    {
+      "tool": "web_search",
+      "args": {
+        "query": "Ramp funding round 2025 November $32 billion lead investor"
+      },
+      "result_size_chars": 2408,
+      "latency_ms": 1298
+    },
+    {
+      "tool": "fetch_url",
+      "args": {
+        "url": "https://www.prnewswire.com/news-releases/ramp-reaches-32-billion-valuation-doubling-revenue-and-customers-in-past-year-302616510.html"
+      },
+      "result_size_chars": 8742,
+      "latency_ms": 280
+    },
+    {
+      "tool": "web_search",
+      "args": {
+        "query": "Eric Glyman CEO previous role before Ramp Paribus Capital One"
+      },
+      "result_size_chars": 2990,
+      "latency_ms": 1290
+    },
+    {
+      "tool": "web_search",
+      "args": {
+        "query": "Ramp customers case studies partners Fortune 500"
+      },
+      "result_size_chars": 3421,
+      "latency_ms": 1148
+    },
+    {
+      "tool": "web_search",
+      "args": {
+        "query": "Ramp headquarters city location New York"
+      },
+      "result_size_chars": 1815,
+      "latency_ms": 1260
+    },
+    {
+      "tool": "fetch_url",
+      "args": {
+        "url": "https://ramp.com/customers"
+      },
+      "result_size_chars": 8480,
+      "latency_ms": 642
+    },
+    {
+      "tool": "fetch_url",
+      "args": {
+        "url": "https://lsvp.com/stories/why-we-led-ramps-300m-round-building-the-intelligence-layer-for-finance"
+      },
+      "result_size_chars": 9010,
+      "latency_ms": 473
+    },
+    {
+      "tool": "web_search",
+      "args": {
+        "query": "\"Ramp\" customer case study Notion Shopify Sierra Nevada"
+      },
+      "result_size_chars": 3087,
+      "latency_ms": 1015
+    },
+    {
+      "tool": "fetch_url",
+      "args": {
+        "url": "https://www.notion.com/customers/ramp"
+      },
+      "result_size_chars": 8790,
+      "latency_ms": 270
+    }
+  ],
+  "total_input_tokens": 131353,
+  "total_output_tokens": 1521,
+  "total_cost_usd": 0.138958,
+  "latency_sec": 154.732
+}

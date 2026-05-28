@@ -1,0 +1,182 @@
+{
+  "company_name": "Stripe",
+  "enrichment": {
+    "company_name": "Stripe",
+    "ceo_name": "Patrick Collison",
+    "cofounder_names": [
+      "Patrick Collison",
+      "John Collison"
+    ],
+    "people_source_url": "https://en.wikipedia.org/wiki/Stripe,_Inc.",
+    "hq_city": "South San Francisco, California",
+    "hq_source_url": "https://en.wikipedia.org/wiki/Stripe,_Inc.",
+    "last_funding_amount": "Tender offer at $159 billion valuation",
+    "last_funding_date": "2026-02-24",
+    "last_funding_lead_investor": null,
+    "funding_source_url": "https://en.wikipedia.org/wiki/Stripe,_Inc.",
+    "ceo_previous_role": "Co-founder of Auctomatic (acquired by Live Current Media in 2008)",
+    "ceo_previous_role_source_url": "https://en.wikipedia.org/wiki/Patrick_Collison",
+    "named_customer_or_partner": "OpenAI (Stripe powers Instant Checkout in ChatGPT; Agentic Commerce Protocol codeveloped with OpenAI)",
+    "customer_source_url": "https://stripe.com/newsroom/news/stripe-openai-instant-checkout"
+  },
+  "llm_calls": [
+    {
+      "timestamp": "2026-05-28T08:21:52.808241+00:00",
+      "config_id": null,
+      "company": "Stripe",
+      "role": "generator",
+      "model": "claude-opus-4-7",
+      "input_tokens": 2547,
+      "output_tokens": 195,
+      "cost_usd": 0.052829999999999995,
+      "latency_ms": 3581,
+      "success_bool": true
+    },
+    {
+      "timestamp": "2026-05-28T08:21:57.774446+00:00",
+      "config_id": null,
+      "company": "Stripe",
+      "role": "generator",
+      "model": "claude-opus-4-7",
+      "input_tokens": 8209,
+      "output_tokens": 189,
+      "cost_usd": 0.13731,
+      "latency_ms": 3689,
+      "success_bool": true
+    },
+    {
+      "timestamp": "2026-05-28T08:22:03.327645+00:00",
+      "config_id": null,
+      "company": "Stripe",
+      "role": "generator",
+      "model": "claude-opus-4-7",
+      "input_tokens": 13403,
+      "output_tokens": 244,
+      "cost_usd": 0.219345,
+      "latency_ms": 4320,
+      "success_bool": true
+    },
+    {
+      "timestamp": "2026-05-28T08:22:12.007137+00:00",
+      "config_id": null,
+      "company": "Stripe",
+      "role": "generator",
+      "model": "claude-opus-4-7",
+      "input_tokens": 19971,
+      "output_tokens": 285,
+      "cost_usd": 0.32093999999999995,
+      "latency_ms": 5461,
+      "success_bool": true
+    },
+    {
+      "timestamp": "2026-05-28T08:22:18.168991+00:00",
+      "config_id": null,
+      "company": "Stripe",
+      "role": "generator",
+      "model": "claude-opus-4-7",
+      "input_tokens": 29392,
+      "output_tokens": 219,
+      "cost_usd": 0.4573050000000001,
+      "latency_ms": 4932,
+      "success_bool": true
+    },
+    {
+      "timestamp": "2026-05-28T08:22:30.469094+00:00",
+      "config_id": null,
+      "company": "Stripe",
+      "role": "generator",
+      "model": "claude-opus-4-7",
+      "input_tokens": 33241,
+      "output_tokens": 807,
+      "cost_usd": 0.55914,
+      "latency_ms": 12058,
+      "success_bool": true
+    }
+  ],
+  "tool_calls": [
+    {
+      "tool": "fetch_url",
+      "args": {
+        "url": "https://en.wikipedia.org/wiki/Stripe,_Inc."
+      },
+      "result_size_chars": 8718,
+      "latency_ms": 307
+    },
+    {
+      "tool": "web_search",
+      "args": {
+        "query": "Stripe latest funding round 2025 2026 tender offer valuation lead investor"
+      },
+      "result_size_chars": 1991,
+      "latency_ms": 968
+    },
+    {
+      "tool": "fetch_url",
+      "args": {
+        "url": "https://en.wikipedia.org/wiki/Stripe,_Inc.?action=raw"
+      },
+      "result_size_chars": 8202,
+      "latency_ms": 252
+    },
+    {
+      "tool": "web_search",
+      "args": {
+        "query": "\"Patrick Collison\" before Stripe previous company founded"
+      },
+      "result_size_chars": 3402,
+      "latency_ms": 980
+    },
+    {
+      "tool": "fetch_url",
+      "args": {
+        "url": "https://patrickcollison.com/about"
+      },
+      "result_size_chars": 6671,
+      "latency_ms": 355
+    },
+    {
+      "tool": "web_search",
+      "args": {
+        "query": "Stripe tender offer February 2026 $159 billion lead investor"
+      },
+      "result_size_chars": 2926,
+      "latency_ms": 1792
+    },
+    {
+      "tool": "web_search",
+      "args": {
+        "query": "Stripe customer case study Amazon OpenAI Shopify"
+      },
+      "result_size_chars": 3850,
+      "latency_ms": 1068
+    },
+    {
+      "tool": "fetch_url",
+      "args": {
+        "url": "https://en.wikipedia.org/wiki/Patrick_Collison"
+      },
+      "result_size_chars": 8709,
+      "latency_ms": 199
+    },
+    {
+      "tool": "fetch_url",
+      "args": {
+        "url": "https://stripe.com/newsroom/news/stripe-openai-instant-checkout"
+      },
+      "result_size_chars": 8667,
+      "latency_ms": 1029
+    },
+    {
+      "tool": "fetch_url",
+      "args": {
+        "url": "https://en.wikipedia.org/wiki/Patrick_Collison?action=raw"
+      },
+      "result_size_chars": 8247,
+      "latency_ms": 240
+    }
+  ],
+  "total_input_tokens": 106763,
+  "total_output_tokens": 1939,
+  "total_cost_usd": 1.74687,
+  "latency_sec": 41.254
+}

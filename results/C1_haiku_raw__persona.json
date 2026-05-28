@@ -1,0 +1,191 @@
+{
+  "company_name": "Persona",
+  "enrichment": {
+    "company_name": "Persona",
+    "ceo_name": "Rick Song",
+    "cofounder_names": [
+      "Rick Song",
+      "Charles Yeh"
+    ],
+    "people_source_url": "https://tracxn.com/d/companies/persona/__t1FJBkRZQsH6YTCPdh8R44ib5y1AasDnLJ8BnP10rQg",
+    "hq_city": "San Francisco",
+    "hq_source_url": "https://salestools.io/report/persona-raises-200m-series-d",
+    "last_funding_amount": "$200 million",
+    "last_funding_date": "2025-04-30",
+    "last_funding_lead_investor": "Founders Fund and Ribbit Capital",
+    "funding_source_url": "https://tracxn.com/d/companies/persona/__t1FJBkRZQsH6YTCPdh8R44ib5y1AasDnLJ8BnP10rQg",
+    "ceo_previous_role": "Identity fraud and risk products at Square",
+    "ceo_previous_role_source_url": "https://fintecbuzz.com/fintech-interview-with-rick-song-ceo-and-cofounder-of-persona",
+    "named_customer_or_partner": "OpenAI",
+    "customer_source_url": "https://www.pymnts.com/news/investment-tracker/2025/persona-raises-200-million-dollars-expand-identity-platform"
+  },
+  "llm_calls": [
+    {
+      "timestamp": "2026-05-28T08:15:02.801717+00:00",
+      "config_id": null,
+      "company": "Persona",
+      "role": "generator",
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 1909,
+      "output_tokens": 146,
+      "cost_usd": 0.002639,
+      "latency_ms": 22583,
+      "success_bool": true
+    },
+    {
+      "timestamp": "2026-05-28T08:15:07.682955+00:00",
+      "config_id": null,
+      "company": "Persona",
+      "role": "generator",
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 6643,
+      "output_tokens": 229,
+      "cost_usd": 0.007788,
+      "latency_ms": 3359,
+      "success_bool": true
+    },
+    {
+      "timestamp": "2026-05-28T08:15:11.466833+00:00",
+      "config_id": null,
+      "company": "Persona",
+      "role": "generator",
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 11072,
+      "output_tokens": 204,
+      "cost_usd": 0.012092,
+      "latency_ms": 2389,
+      "success_bool": true
+    },
+    {
+      "timestamp": "2026-05-28T08:15:24.785230+00:00",
+      "config_id": null,
+      "company": "Persona",
+      "role": "generator",
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 12967,
+      "output_tokens": 92,
+      "cost_usd": 0.013427,
+      "latency_ms": 11047,
+      "success_bool": true
+    },
+    {
+      "timestamp": "2026-05-28T08:15:40.144338+00:00",
+      "config_id": null,
+      "company": "Persona",
+      "role": "generator",
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 16545,
+      "output_tokens": 116,
+      "cost_usd": 0.017125,
+      "latency_ms": 15232,
+      "success_bool": true
+    },
+    {
+      "timestamp": "2026-05-28T08:16:01.255092+00:00",
+      "config_id": null,
+      "company": "Persona",
+      "role": "generator",
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 19657,
+      "output_tokens": 128,
+      "cost_usd": 0.020297000000000003,
+      "latency_ms": 20486,
+      "success_bool": true
+    },
+    {
+      "timestamp": "2026-05-28T08:16:34.417307+00:00",
+      "config_id": null,
+      "company": "Persona",
+      "role": "generator",
+      "model": "claude-haiku-4-5-20251001",
+      "input_tokens": 20737,
+      "output_tokens": 1000,
+      "cost_usd": 0.025737,
+      "latency_ms": 32044,
+      "success_bool": true
+    }
+  ],
+  "tool_calls": [
+    {
+      "tool": "fetch_url",
+      "args": {
+        "url": "https://withpersona.com"
+      },
+      "result_size_chars": 5732,
+      "latency_ms": 201
+    },
+    {
+      "tool": "web_search",
+      "args": {
+        "query": "Persona company CEO founders funding",
+        "max_results": 6
+      },
+      "result_size_chars": 3597,
+      "latency_ms": 1319
+    },
+    {
+      "tool": "fetch_url",
+      "args": {
+        "url": "https://tracxn.com/d/companies/persona/__t1FJBkRZQsH6YTCPdh8R44ib5y1AasDnLJ8BnP10rQg"
+      },
+      "result_size_chars": 8276,
+      "latency_ms": 282
+    },
+    {
+      "tool": "web_search",
+      "args": {
+        "query": "Persona Series D funding $200 million date 2025 Ribbit Capital",
+        "max_results": 6
+      },
+      "result_size_chars": 2996,
+      "latency_ms": 1111
+    },
+    {
+      "tool": "web_search",
+      "args": {
+        "query": "Rick Song Persona CEO previous role Square biography",
+        "max_results": 6
+      },
+      "result_size_chars": 2738,
+      "latency_ms": 1140
+    },
+    {
+      "tool": "web_search",
+      "args": {
+        "query": "Persona identity verification customers case studies partners",
+        "max_results": 6
+      },
+      "result_size_chars": 3021,
+      "latency_ms": 1129
+    },
+    {
+      "tool": "fetch_url",
+      "args": {
+        "url": "https://withpersona.com/customers"
+      },
+      "result_size_chars": 5768,
+      "latency_ms": 126
+    },
+    {
+      "tool": "fetch_url",
+      "args": {
+        "url": "https://www.pymnts.com/news/investment-tracker/2025/persona-raises-200-million-dollars-expand-identity-platform"
+      },
+      "result_size_chars": 8669,
+      "latency_ms": 623
+    },
+    {
+      "tool": "web_search",
+      "args": {
+        "query": "\"Rick Song\" Persona CEO \"Square\" identity underwriting LinkedIn",
+        "max_results": 6
+      },
+      "result_size_chars": 3209,
+      "latency_ms": 1117
+    }
+  ],
+  "total_input_tokens": 89530,
+  "total_output_tokens": 1915,
+  "total_cost_usd": 0.099105,
+  "latency_sec": 114.205
+}

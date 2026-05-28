@@ -1,0 +1,223 @@
+{
+  "company_name": "Cloudflare",
+  "enrichment": {
+    "company_name": "Cloudflare",
+    "ceo_name": "Matthew Prince",
+    "cofounder_names": [
+      "Matthew Prince",
+      "Lee Holloway",
+      "Michelle Zatlyn"
+    ],
+    "people_source_url": "https://en.wikipedia.org/wiki/Cloudflare",
+    "hq_city": "San Francisco",
+    "hq_source_url": "https://en.wikipedia.org/wiki/Cloudflare",
+    "last_funding_amount": "$150 million",
+    "last_funding_date": "2019-03-12",
+    "last_funding_lead_investor": "Franklin Templeton",
+    "funding_source_url": "https://www.cloudflare.com/press/press-releases/2019/cloudflare-raises-usd150m-and-adds-to-board-of-directors/",
+    "ceo_previous_role": "Co-creator of Project Honey Pot (a product of Unspam Technologies); previously collaborated with Lee Holloway on it before founding Cloudflare",
+    "ceo_previous_role_source_url": "https://en.wikipedia.org/wiki/Cloudflare",
+    "named_customer_or_partner": "Shopify",
+    "customer_source_url": "https://www.cloudflare.com/case-studies/shopify/"
+  },
+  "llm_calls": [
+    {
+      "timestamp": "2026-05-28T08:22:34.196567+00:00",
+      "config_id": null,
+      "company": "Cloudflare",
+      "role": "generator",
+      "model": "claude-opus-4-7",
+      "input_tokens": 2553,
+      "output_tokens": 121,
+      "cost_usd": 0.04737,
+      "latency_ms": 3706,
+      "success_bool": true
+    },
+    {
+      "timestamp": "2026-05-28T08:22:40.470441+00:00",
+      "config_id": null,
+      "company": "Cloudflare",
+      "role": "generator",
+      "model": "claude-opus-4-7",
+      "input_tokens": 7084,
+      "output_tokens": 204,
+      "cost_usd": 0.12155999999999999,
+      "latency_ms": 6010,
+      "success_bool": true
+    },
+    {
+      "timestamp": "2026-05-28T08:22:48.173524+00:00",
+      "config_id": null,
+      "company": "Cloudflare",
+      "role": "generator",
+      "model": "claude-opus-4-7",
+      "input_tokens": 10316,
+      "output_tokens": 213,
+      "cost_usd": 0.170715,
+      "latency_ms": 5547,
+      "success_bool": true
+    },
+    {
+      "timestamp": "2026-05-28T08:22:57.484197+00:00",
+      "config_id": null,
+      "company": "Cloudflare",
+      "role": "generator",
+      "model": "claude-opus-4-7",
+      "input_tokens": 19840,
+      "output_tokens": 333,
+      "cost_usd": 0.322575,
+      "latency_ms": 7972,
+      "success_bool": true
+    },
+    {
+      "timestamp": "2026-05-28T08:23:06.711315+00:00",
+      "config_id": null,
+      "company": "Cloudflare",
+      "role": "generator",
+      "model": "claude-opus-4-7",
+      "input_tokens": 26901,
+      "output_tokens": 260,
+      "cost_usd": 0.42301500000000003,
+      "latency_ms": 7021,
+      "success_bool": true
+    },
+    {
+      "timestamp": "2026-05-28T08:23:13.164188+00:00",
+      "config_id": null,
+      "company": "Cloudflare",
+      "role": "generator",
+      "model": "claude-opus-4-7",
+      "input_tokens": 34767,
+      "output_tokens": 242,
+      "cost_usd": 0.539655,
+      "latency_ms": 5418,
+      "success_bool": true
+    },
+    {
+      "timestamp": "2026-05-28T08:23:19.395093+00:00",
+      "config_id": null,
+      "company": "Cloudflare",
+      "role": "generator",
+      "model": "claude-opus-4-7",
+      "input_tokens": 35996,
+      "output_tokens": 138,
+      "cost_usd": 0.55029,
+      "latency_ms": 5182,
+      "success_bool": true
+    },
+    {
+      "timestamp": "2026-05-28T08:23:33.437226+00:00",
+      "config_id": null,
+      "company": "Cloudflare",
+      "role": "generator",
+      "model": "claude-opus-4-7",
+      "input_tokens": 40177,
+      "output_tokens": 820,
+      "cost_usd": 0.6641549999999999,
+      "latency_ms": 13320,
+      "success_bool": true
+    }
+  ],
+  "tool_calls": [
+    {
+      "tool": "fetch_url",
+      "args": {
+        "url": "https://en.wikipedia.org/wiki/Cloudflare"
+      },
+      "result_size_chars": 8692,
+      "latency_ms": 263
+    },
+    {
+      "tool": "web_search",
+      "args": {
+        "query": "Cloudflare founders Matthew Prince Michelle Zatlyn Lee Holloway headquarters San Francisco"
+      },
+      "result_size_chars": 3066,
+      "latency_ms": 1045
+    },
+    {
+      "tool": "web_search",
+      "args": {
+        "query": "Cloudflare Series E funding round 2019 IPO lead investor Fidelity"
+      },
+      "result_size_chars": 3718,
+      "latency_ms": 1109
+    },
+    {
+      "tool": "fetch_url",
+      "args": {
+        "url": "https://www.meritechcapital.com/blog/cloudflare-s1-breakdown"
+      },
+      "result_size_chars": 8538,
+      "latency_ms": 549
+    },
+    {
+      "tool": "fetch_url",
+      "args": {
+        "url": "https://blog.cloudflare.com/founders-letter"
+      },
+      "result_size_chars": 8516,
+      "latency_ms": 788
+    },
+    {
+      "tool": "web_search",
+      "args": {
+        "query": "\"Matthew Prince\" Cloudflare CEO previous \"Project Honey Pot\" co-founder Harvard Law"
+      },
+      "result_size_chars": 2382,
+      "latency_ms": 1144
+    },
+    {
+      "tool": "web_search",
+      "args": {
+        "query": "Cloudflare case study customer \"IBM\" OR \"Shopify\" OR \"Canva\" partner press release"
+      },
+      "result_size_chars": 3041,
+      "latency_ms": 903
+    },
+    {
+      "tool": "fetch_url",
+      "args": {
+        "url": "https://en.wikipedia.org/wiki/Matthew_Prince"
+      },
+      "result_size_chars": 8713,
+      "latency_ms": 156
+    },
+    {
+      "tool": "fetch_url",
+      "args": {
+        "url": "https://www.cloudflare.com/case-studies/shopify"
+      },
+      "result_size_chars": 8714,
+      "latency_ms": 694
+    },
+    {
+      "tool": "fetch_url",
+      "args": {
+        "url": "https://en.wikipedia.org/wiki/Cloudflare?action=raw"
+      },
+      "result_size_chars": 8250,
+      "latency_ms": 339
+    },
+    {
+      "tool": "web_search",
+      "args": {
+        "query": "\"Cloudflare\" \"$150 million\" \"Series E\" \"Franklin Templeton\" March 2019 lead"
+      },
+      "result_size_chars": 2564,
+      "latency_ms": 1046
+    },
+    {
+      "tool": "fetch_url",
+      "args": {
+        "url": "https://www.cloudflare.com/press/press-releases/2019/cloudflare-raises-usd150m-and-adds-to-board-of-directors"
+      },
+      "result_size_chars": 8559,
+      "latency_ms": 721
+    }
+  ],
+  "total_input_tokens": 177634,
+  "total_output_tokens": 2331,
+  "total_cost_usd": 2.839335,
+  "latency_sec": 62.95
+}
