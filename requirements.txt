@@ -1,0 +1,9 @@
+anthropic
+tavily-python
+requests
+pydantic
+python-dotenv
+pandas
+matplotlib
+jupyter
+tenacity
